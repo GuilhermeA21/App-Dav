@@ -1,0 +1,41 @@
+import  'package: flutter / material.dart' ;
+import  'package: flutter / material.dart' ;
+
+classe layout2 estende  StatefulWidget {
+  const  layout2 ({ Key ? key}) :  super (key : key);
+
+  @sobrepor
+  _layout2State createState () =>  _layout2State ();
+}
+class _layout2State extends  State < layout2 > {
+  @sobrepor
+   Construção de widget ( contexto BuildContext ) {
+    return  Scaffold (
+        corpo :  Centro (
+        filho :  coluna (
+          mainAxisAlignment :  MainAxisAlignment .center,
+            filhos : [
+              Imagem . ativo (
+                "imagens / abendstimmung.jpg" ,
+                largura :  450 ,
+                altura :  221
+              ),
+			  
+			colors (Red,colors)
+           border:(Black,color;)
+
+        My Dev App (Tittle Name)}		   
+			  
+              RaisedButton (
+                criança :  Texto ( "curtir" ),
+                cor :  Cores .amber,
+                onPressed : () {
+                  imprimir ( "bonito" );
+                },
+              ),
+            ],
+        ),
+        ),
+    );
+  }
+}

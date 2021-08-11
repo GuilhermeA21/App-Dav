@@ -1,0 +1,75 @@
+import  'dart: html' ;
+import  'package: flutter / material.dart' ;
+classe layout1 estende  StatefulWidget {
+  const  layout1 ({ Key ? key}) :  super (key : key);
+
+  @sobrepor
+  _layout1State createState () =>  _layout1State ();
+}
+
+class _layout1State extends  State < layout1 > {
+  @sobrepor
+   Construção de widget ( contexto BuildContext ) {
+    return  Scaffold (
+      appBar :  AppBar (
+        título :  Texto ( "Test Dev App" ),
+        backgroundColor :  Colors .amber,
+      ),
+      corpo :  Centro (
+        filho :  coluna (
+          mainAxisAlignment :  MainAxisAlignment .start,
+          filhos : [
+              Imagem . ativo (
+                "imagens / teste.jpg" ,
+                  largura :  150 ,
+                  altura :  100 ,
+              ),
+            RaisedButton (
+              filho :  Texto ( "My First App Dav" ),
+              cor :  Cores .amber,
+              onPressed : () {
+                imprimir ( "beauty" );
+              },
+            ),
+            Imagem . ativo (
+              "imagens / flowers.jpg" ,
+              largura :  150 ,
+              altura :  100 ,
+            ),
+            RaisedButton (
+              filho :  Texto ( "Escolha o seu favorito" ),
+              cor :  Cores .amber,
+              onPressed : () {
+                imprimir ( "bonito" );
+              },
+            ),
+            Imagem . ativo (
+              "imagens / poppy.jpg" ,
+              largura :  150 ,
+              altura :  100 ,
+            ),
+            RaisedButton (
+              filho :  Texto ( "beauty my app" ),
+              cor :  Cores .amber,
+              onPressed : () {
+                imprimir ( "beauty" );
+              },
+            ),
+            Imagem . ativo (
+              "imagens / tree.jpg" ,
+              largura :  150 ,
+              altura :  100 ,
+            ),
+            RaisedButton (
+              filho :  Texto ( "" ),
+              cor :  Cores .amber,
+              onPressed : () {
+                imprimir ( "bonito" );
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
